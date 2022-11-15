@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/SmoothFollow.cs" />
      <Compile Include="Assets/Scripts/CharacterMovement.cs" />
+     <Compile Include="Assets/Scripts/KnifeDestruction.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/coscristian/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -733,6 +734,15 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/home/coscristian/Documentos/UnityProjects/ProyectoGame/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>/home/coscristian/Documentos/UnityProjects/ProyectoGame/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Linux-x86_64">
+        <HintPath>/home/coscristian/Documentos/UnityProjects/ProyectoGame/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+        <HintPath>/home/coscristian/Documentos/UnityProjects/ProyectoGame/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
