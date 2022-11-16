@@ -34,7 +34,8 @@ public class CharacterMovement : MonoBehaviour{
     void Update() {
         moveDirection = Input.GetAxis("Horizontal");
 
-        if (grounded && Input.GetButton("Jump")) {
+        // Salto
+        if (grounded && Input.GetButtonDown("Jump")) {
             anim.SetTrigger("isJumping");
             rigidbody.AddForce(new Vector2(0,jumpSpeed));
         }
